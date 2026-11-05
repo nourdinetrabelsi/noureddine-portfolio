@@ -1,0 +1,8 @@
+@import "tailwindcss";
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { background: #080d1b; color: #eaf0ff; font-family: Arial, Helvetica, sans-serif; }
+::selection { background: #7c3aed; color: white; }
+.glow { background: radial-gradient(ellipse at 70% 20%, rgba(124,58,237,.20), transparent 50%), radial-gradient(ellipse at 15% 50%, rgba(14,165,233,.09), transparent 45%); }
+.card { background: rgba(20,29,52,.72); border: 1px solid #29334c; border-radius: 20px; }
+.pill { border: 1px solid #38425b; background: #131d33; border-radius: 999px; padding: .4rem .85rem; font-size: .8rem; color: #cbd5e1; }
